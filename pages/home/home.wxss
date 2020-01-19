@@ -1,0 +1,36 @@
+/* pages/home/home.wxss */
+.content {
+  text-align: center;
+}
+
+.top-box {
+  position: relative;
+  padding-bottom: 20rpx;
+}
+
+.swiper-container{
+  position: absolute;
+  background: #fff;
+  margin-top: -200rpx;
+  width: 96%;
+  margin-left: 2%;
+  height: 300rpx;
+}
+
+.message-box {
+  text-align: left;
+  width: 90%;
+  height: 70rpx;
+  line-height: 65rpx;
+  border-radius: 35rpx;
+  margin-left: 5%;
+  background: #f7e6e7;
+}
+
+.message-box text {
+  margin-left: 25rpx;
+}
+
+.message-box .message {
+  color: #f17544;
+}

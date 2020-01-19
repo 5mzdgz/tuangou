@@ -1,0 +1,5 @@
+<!--components/order/order-detail/maybe-like/index.wxml-->
+
+<view class="maybe-box">
+  你可能喜欢的
+</view>

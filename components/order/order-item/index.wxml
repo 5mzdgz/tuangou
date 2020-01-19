@@ -1,0 +1,23 @@
+<!--components/order/order-item/index.wxml-->
+
+<view class="order-item">
+  <view class="item-box back-fff" bindtap="goDetailTap">
+    <view class="top-box flex-r fs-24">
+      <text class="left">下单时间: 2020-01-18 11:51:50</text>
+      <text class="right fs-26">待付款</text>
+    </view>
+    <view class="middle-box">
+      <image src="/images/home/reward.png" />
+      <image src="/images/home/reward.png" />
+      <image src="/images/home/reward.png" />
+      <image src="/images/home/reward.png" />
+    </view>
+    <view class="bottom-box flex-r">
+      <view class="left-count fs-24">共 9 件商品 实付: <text>￥217.00</text></view>
+      <view class="right-btn flex-r">
+        <button>取消订单</button>
+        <button>立即支付</button>
+      </view>
+    </view>
+  </view>
+</view>

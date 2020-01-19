@@ -1,0 +1,22 @@
+<!--components/swiper/index.wxml-->
+<block>
+  <swiper class="swiper"
+    autoplay="{{bannerAutoplay}}" 
+    interval="{{interval}}"
+    duration="{{duration}}"
+    circular="{{circular}}"
+    bindchange='swiperBannerChange'
+    >
+    <block wx:for="{{slider}}" wx:key="{{index}}">
+      <swiper-item class="banner-item" data-item="{{item}}">
+        <image class="item-image" mode='' src="{{item.imgUrl}}" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="dots" wx:if="{{indicatorDots}}">
+    <block wx:for="{{slider}}" wx:key="unique">
+      <view class="dot{{index == current ? ' active ' : ''}}"></view>
+    </block>
+  </view>
+</block>

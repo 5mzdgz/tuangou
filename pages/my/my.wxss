@@ -1,0 +1,55 @@
+/* pages/my/my.wxss */
+page {
+  background: #f1f1f1;
+  padding-bottom: 30rpx;
+}
+
+.group-box {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 30rpx;
+  border-radius: 16rpx;
+  box-shadow: 0 10rpx 10rpx rgba(0, 0, 0, 0.16);
+  overflow: hidden;
+}
+
+
+.auth {
+  width: 525rpx;
+  border-radius: 16rpx;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+
+.auth image {
+  width: 100%;
+  height: 200rpx;
+  margin-bottom: 20rpx;
+}
+
+button {
+  width: 140rpx;
+  font-size: 24rpx;
+  height: 50rpx;
+  border-radius: 25rpx;
+  line-height: 50rpx;
+  border: 1px solid #f14556;
+  margin-bottom: 20rpx;
+}
+
+.auth .content {
+  width: 80%;
+  line-height: 40rpx;
+  padding: 20rpx 0;
+}
+
+button:nth-child(1) {
+  color: #f14556;
+  margin-right: 30rpx;
+}
+
+button:nth-child(2) {
+  background: #f14556;
+  color: #fff;
+}

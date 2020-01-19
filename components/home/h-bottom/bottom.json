@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "h-product": "../common/h-product/index"
+  }
+}

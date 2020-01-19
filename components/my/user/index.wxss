@@ -1,0 +1,55 @@
+/* components/my/user/index.wxss */
+
+.user-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 240rpx;
+  background: -webkit-linear-gradient(top, #f14556,rgb(247, 148, 118));
+  padding: 20rpx;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+}
+
+.left-box {
+  width: 75%;
+  height: 100rpx;
+}
+
+.left-box .user .user-name {
+  width: 380rpx;
+}
+
+.left-box image {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 20rpx;
+  border-radius: 100%;
+  background-color: #fff;
+}
+
+.right-box {
+  height: 100rpx;
+}
+
+.icon-box {
+  width: 60rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 100%;
+  background: rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.icon-box text {
+  font-size: 28rpx;
+}
+
+.right-item:nth-child(1) {
+  margin-right: 20rpx;
+}
+
+.right-item .sign {
+  padding-top: 10rpx;
+}
+

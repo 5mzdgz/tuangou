@@ -1,0 +1,27 @@
+<!--pages/order/order-detail/order-detail.wxml-->
+
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="订单详情"
+>
+</navigation>
+<view class="content">
+  <view class="container order-container" hidden="{{!loadingHidden}}">
+    
+    <d-banner></d-banner>
+    
+    <d-product></d-product>
+
+    <d-info></d-info>
+
+    <d-maybe-like></d-maybe-like>
+
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>
+
+
+

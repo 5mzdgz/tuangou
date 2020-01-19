@@ -1,0 +1,11 @@
+<!--components/detail/detail-image/index.wxml-->
+<view class="detail-image-box">
+  <view class="text-box">
+    <view class="text fw-600 color-555">一商/品/详/情一</view>
+    <text class="e-text fs-20"><text class="one-text">PRODUCT</text> DETAIL</text>
+  </view>
+
+  <view class="image-box">
+    <image mode="widthFix" src="/images/home/home_banner.png" />
+  </view>
+</view>

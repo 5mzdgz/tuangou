@@ -1,0 +1,31 @@
+<!--components/home/h-middle/middle.wxml-->
+
+<view class="middle-box grey-f1">
+  <view class="middle back-fff">
+    <view class="nav-box flex-r">
+      <view class="lef-box flex-r fs-26 fw-600">
+        <view class="red-box primary-b"></view>
+        <text>限时秒杀</text>
+      </view>
+      <view class="right-box fs-20 primary-c">左滑查看更多
+        <text class="iconfont icon-xiangyou fw-600"></text>
+      </view>
+    </view>
+
+    <view class="product-box">
+      <scroll-view scroll-x="{{scrollx}}">
+        <view class="scroll-box">
+          <h-product class="flex-r" prodcutArr="{{prodcutArr}}"></h-product>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+
+  <view class="snapping">
+    <view class="title">一正/在/抢/购一</view>
+    <view class="sub fs-20">
+      <text class="left">当日下单</text>
+      <text class="right">次日可提</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+<!--components/detail/banner/banner.wxml-->
+<block>
+  <swiper class="swiper"
+    autoplay="{{bannerAutoplay}}" 
+    interval="{{interval}}"
+    duration="{{duration}}"
+    circular="{{circular}}"
+    bindchange='swiperBannerChange'
+    >
+    <block wx:for="{{slider}}" wx:key="{{index}}">
+      <swiper-item class="banner-item">
+        <image class="item-image" data-src="{{item.imgUrl}}" mode='' src="{{item.imgUrl}}" bindtap="previewImage" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+  <view class="dots flex-r color-fff fs-20" wx:if="{{indicatorDots}}">
+    <text>{{current+1}}/{{slider.length}}</text>
+  </view>
+</block>

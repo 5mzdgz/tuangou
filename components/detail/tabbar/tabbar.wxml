@@ -1,0 +1,15 @@
+<!--components/detail/tabbar/tabbar.wxml-->
+<view class="tabbar-box flex-r back-fff">
+  <view class="left flex-r fs-20 color-555">
+    <view class="left-item">
+      <text class="iconfont icon-kefuerji"></text>
+      <view class="serve">客服</view>
+    </view>
+    <view class="left-item">
+      <text class="iconfont icon-gouwuche1"></text>
+      <view class="cart">购物车</view>
+    </view>
+  </view>
+  <view class="middle color-fff">加入购物车</view>
+  <view class="right primary-b fw-600 color-fff">立即购买</view>
+</view>

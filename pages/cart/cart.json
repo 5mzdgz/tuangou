@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "c-product": "/components/cart/cart-product/index"
+  }
+}

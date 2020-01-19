@@ -1,0 +1,21 @@
+<!--pages/order/order.wxml-->
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="我的订单"
+>
+</navigation>
+<view class="content">
+  <view class="container order-container" hidden="{{!loadingHidden}}">
+    
+    <navbar></navbar>
+
+    <order-item></order-item>
+    
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>
+
+

@@ -1,0 +1,22 @@
+/* pages/category/category.wxss */
+
+.input-box {
+  margin: 0 5%;
+  background-color: rgb(238, 238, 238);
+  height: 60rpx;
+  border-radius: 30rpx;
+  padding: 0 5%;
+  margin-top: 20rpx;
+}
+
+.input-box .icon-sousuo {
+  font-size: 30rpx;
+}
+
+.input-box input {
+  width: 100%;
+  text-align: left;
+  font-size: 26rpx;
+  margin-left: 15rpx;
+  height: 90rpx;
+}

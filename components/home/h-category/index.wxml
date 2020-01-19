@@ -1,0 +1,7 @@
+<!--components/h-category/index.wxml-->
+<view class="gird-box flex-r fs-24">
+  <view class="gird flex-c" wx:for="{{gridArr}}" wx:key="{{index}}">
+    <image src="{{item.imgUrl}}" />
+    <text>{{item.gridName}}</text>
+  </view>
+</view>

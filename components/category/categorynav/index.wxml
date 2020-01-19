@@ -1,0 +1,31 @@
+<!--components/category/index.wxml-->
+<view class="category-box">
+  
+  <scroll-view scroll-y="{{scrolly}}">
+    <view class="category-nav">
+      <view class="nav-item fs-26 {{current === index ? 'back-fff color-000 border-left' : 'grey-f1 color-555'}}" wx:for="{{categoryNavArr}}" wx:key="{{index}}" data-index="{{index}}" bindtap="selectedCategory">{{item.title}}</view>
+    </view>
+  </scroll-view>
+
+  <scroll-view scroll-y="{{scrollY}}">
+    <view class="product-box">
+      <view class="product-item flex-r" wx:for="{{prodcutArr}}" wx:key="{{index}}" data-id="{{item.id}}" bindtap="goDetail">
+        <image src="/images/home/reward.png"/>
+        <view class="info-box">
+          <view class="title fs-26 ellipsis_1">宝贝小普联宝贝小普联宝贝小普联宝贝小普联宝贝小普联宝贝小普联</view>
+          <view class="sub fs-24 color-555 ellipsis_1">宝贝小普联宝贝小普联宝贝小普联宝贝小普联宝贝小普联宝贝小普联</view>
+
+          <view class="price-box flex-r">
+            <view class="left">
+              <text class="price fw-600 primary-c">￥22.80</text>
+              <text class="original-price fs-24 color-555">￥22.22</text>
+            </view>
+            <view class="cart">
+              <text class="iconfont icon-gouwuche1"></text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

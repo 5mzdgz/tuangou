@@ -1,0 +1,65 @@
+/* components/home/h-middle/middle.wxss */
+
+.middle-box {
+  height: 100%;
+  padding-top: 1px;
+}
+
+.middle {
+  margin: 20rpx;
+  border-radius: 12rpx;
+  padding-top: 20rpx;
+}
+
+.nav-box {
+  justify-content: space-between;
+  padding-right: 20rpx;
+}
+
+.red-box {
+  width: 6rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+
+.right-box text {
+  font-size: 20rpx;
+}
+
+.product-box {
+  margin-top: 25rpx;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.scroll-box {
+  height: 350rpx;
+  white-space: nowrap;
+}
+
+.snapping {
+  padding: 20rpx 0;
+}
+
+.snapping .title {
+  letter-spacing: 15rpx;
+  -webkit-line-clamp: 2;
+  background-image: -webkit-linear-gradient(bottom, #f14556,rgba(245,134,89,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.snapping .sub {
+  -webkit-line-clamp: 2;
+  background-image: -webkit-linear-gradient(bottom, #fa838f,rgba(245,134,89,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.snapping .right {
+  margin-left: 50rpx;
+}

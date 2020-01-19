@@ -1,0 +1,36 @@
+<!--pages/home/home.wxml-->
+
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="团购"
+>
+</navigation>
+<view class="content">
+  <view class="container home-container" hidden="{{!loadingHidden}}">
+    <view class="top-box back-fff">
+    
+      <v-group></v-group>
+
+      <view class="swiper-container">
+        <v-swiper slider="{{slider}}" indicatorDots="{{indicatorDots}}"></v-swiper>
+      </view>
+
+      <h-category gridArr="{{gridArr}}"></h-category>
+
+      <view class="message-box fs-20 hidden">
+        <text class="iconfont icon-guangbo primary-c"></text>
+        <text class="message">配送时间: 当日16：00以后下单次日派送</text>
+      </view>
+
+    </view>
+
+    <h-middle prodcutArr="{{prodcutArr}}"></h-middle>
+
+    <h-bottom prodcutArr="{{prodcutArr}}" days="{{days}}" hours="{{hours}}" min="{{min}}" sec="{{sec}}"></h-bottom>
+
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>

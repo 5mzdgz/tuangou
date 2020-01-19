@@ -1,0 +1,20 @@
+<!--pages/pay/pay.wxml-->
+
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="下单支付"
+>
+</navigation>
+<view class="content">
+  <view class="container order-container" hidden="{{!loadingHidden}}">
+    下单支付
+    
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>
+
+
+

@@ -1,0 +1,18 @@
+<!--components/my/order/index.wxml-->
+<view class="order-box back-fff">
+  <view class="order">
+    <view class="item-nav flex-r" bindtap="goOrderClick">
+      <text class="left-box fs-26">我的订单</text>
+      <view class="right-box color-555">
+        <text class="sub fs-24">查看全部订单</text>
+        <text class="iconfont icon-xiangyou"></text>
+      </view>
+    </view>
+    <view class="content-box flex-r" bindtap="orderClickTap">
+      <view class="content-item" wx:for="{{statusArr}}" wx:key="{{index}}">
+        <view class="icon-box"><text class="iconfont {{item.icon}}"></text></view>
+        <text class="fs-24">{{item.statusName}}</text>
+      </view>
+    </view>
+  </view>
+</view>

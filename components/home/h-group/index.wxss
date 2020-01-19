@@ -1,0 +1,18 @@
+/* components/h-top/index.wxss */
+
+.group {
+  color: #fff;
+  border-bottom-left-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
+  background: -webkit-linear-gradient(top, #f14556,rgb(247, 148, 118));
+}
+
+.no-group {
+  height: 280rpx;
+  line-height: 60rpx;
+  text-align: left;
+}
+
+.no-group text {
+  margin-left: 60rpx;
+}

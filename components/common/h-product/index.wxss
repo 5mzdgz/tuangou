@@ -1,0 +1,35 @@
+/* components/h-product/index.wxss */
+
+.item-box {
+  float: left;
+  width: 210rpx;
+  height: 350rpx;
+  margin-left: 22rpx;
+}
+
+.item-box image {
+  width: 210rpx;
+  height: 210rpx;
+}
+
+.item-box .title {
+  margin: 10rpx 0;
+  width: 210rpx;
+}
+
+.price-box {
+  justify-content: space-between;
+}
+
+.price-box .cart {
+  width: 45rpx;
+  height: 45rpx;
+  border-radius: 50%;
+  background: linear-gradient(#f5a3a8, #f17544);
+  color: #fff;
+  line-height: 45rpx;
+}
+
+.icon-gouwuche1 {
+  font-size: 26rpx;
+}

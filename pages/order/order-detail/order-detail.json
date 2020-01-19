@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "d-banner": "/components/order/order-detail/banner/index",
+    "d-product": "/components/order/order-detail/product/index",
+    "d-info": "/components/order/order-detail/info/index",
+    "d-maybe-like": "/components/order/order-detail/maybe-like/index"
+  }
+}

@@ -1,0 +1,41 @@
+<!--pages/detail/detail.wxml-->
+
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="商品详情"
+>
+</navigation>
+<view class="content">
+  <view class="container detail-container" hidden="{{!loadingHidden}}">
+    
+    <view class="swiper-container">
+      <d-banner slider="{{slider}}" indicatorDots="{{indicatorDots}}"></d-banner>
+    </view>
+
+    <d-popu></d-popu>
+
+    <d-image></d-image>
+    
+    <view class="share-box flex-c fs-20 color-fff" bindtap="clickShow">
+       <text class="iconfont icon-ziyuan"></text>
+       <text>分享</text>
+    </view>
+
+    <d-tabbar></d-tabbar>
+
+    <m-showbottom id="showBottom">
+      <view>dlkalsfkjl</view>
+      <view>dlkalsfkjl</view>
+      <view>dlkalsfkjl</view>
+      <view>dlkalsfkjl</view>
+      <view>dlkalsfkjl</view>
+      <view>dlkalsfkjl</view>
+      <view>dlkalsfkjl</view>
+    </m-showbottom>
+
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>

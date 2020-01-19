@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "m-user": "/components/my/user/index",
+    "m-order": "/components/my/order/index",
+    "m-cell": "/components/my/cell/index",
+    "m-showmiddle": "/components/common/show-middle/index"
+  }
+}

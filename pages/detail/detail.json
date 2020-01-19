@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "d-banner": "/components/detail/banner/banner",
+    "d-popu": "/components/detail/popu/popu",
+    "d-image": "/components/detail/detail-image/index",
+    "d-tabbar": "/components/detail/tabbar/tabbar",
+    "m-showbottom": "/components/common/show-bottom/index"
+  }
+}

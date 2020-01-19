@@ -1,0 +1,35 @@
+/* components/my/order/index.wxss */
+.order-box {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: -130rpx;
+  border-radius: 16rpx;
+  box-shadow: 0 10rpx 10rpx rgba(0, 0, 0, 0.16);
+}
+
+.item-nav {
+  justify-content: space-between;
+  padding: 15rpx 30rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.icon-xiangyou {
+  font-size: 24rpx;
+}
+
+.content-box {
+  justify-content: space-around;
+  padding: 30rpx 0;
+}
+
+.content-item {
+  text-align: center;
+}
+
+.icon-box text {
+  font-size: 65rpx;
+  -webkit-line-clamp: 2;
+  background-image: -webkit-linear-gradient(bottom, #f14556,rgba(245,134,89,1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

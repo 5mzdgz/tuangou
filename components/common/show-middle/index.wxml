@@ -1,0 +1,8 @@
+<!--components/common/show-mode/index.wxml-->
+<view class="show-box" wx:if="{{isShow}}">
+  <view class="hide-box" bindtap="hideTap"></view>
+  <view class="anth-box">
+    <view></view>
+    <slot></slot>
+  </view>
+</view>

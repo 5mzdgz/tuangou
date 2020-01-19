@@ -1,0 +1,16 @@
+<!--components/order/order-detail/product/index.wxml-->
+<view class="product-box">
+  <view class="count">8件商品</view>
+  <view class="product-item">
+    <view class="product-content">
+      <image src="/images/home/reward.png" />
+      <view class="product-right">
+        <view class="title">新疆若拉菲的沙拉疯狂2斤</view>
+        <view class="price">￥15.8 x 2</view>
+        <view class="total">￥15.88</view>
+      </view>
+    </view>
+    <view class="product-btn"><button>联系客服</button></view>
+  </view>
+  <view class="count"></view>
+</view>

@@ -1,0 +1,22 @@
+<!--pages/category/category.wxml-->
+
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="团购"
+>
+</navigation>
+<view class="content">
+  <view class="container category-container" hidden="{{!loadingHidden}}">
+
+    <view class="input-box flex-r">
+      <text class="iconfont icon-sousuo"></text>
+      <input bindconfirm="nameSaerchData" name="nameObj" confirm-type="search" type="text" maxlength="30" placeholder='搜索商品' />
+    </view>
+
+    <category-nav categoryNavArr="{{categoryNavArr}}"></category-nav>
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>

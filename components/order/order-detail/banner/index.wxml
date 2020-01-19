@@ -1,0 +1,8 @@
+<!--components/order/order-detail/banner/index.wxml-->
+<view class="banner-box">
+  <image src="/images/home/home_banner.png"/>
+  <view class="time-box">
+    <view class="time fs-40 color-fff fw-600">22:54:23</view>
+    <view class="tips fs-26 color-fff">请尽快付款，超时将被自动取消</view>
+  </view>
+</view>

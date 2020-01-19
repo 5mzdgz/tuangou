@@ -1,0 +1,116 @@
+/* components/home/h-bottom/bottom.wxss */
+
+.input-box {
+  margin: 0 5%;
+  background-color: rgb(238, 238, 238);
+  height: 60rpx;
+  border-radius: 30rpx;
+  padding: 0 5%;
+  margin-top: 20rpx;
+}
+
+.input-box .icon-sousuo {
+  font-size: 30rpx;
+}
+
+.input-box input {
+  width: 100%;
+  text-align: left;
+  font-size: 26rpx;
+  margin-left: 15rpx;
+  height: 90rpx;
+}
+
+.nav-box {
+  padding: 20rpx 30rpx;
+}
+
+.nav-lobal {
+  justify-content: space-between;
+  border-bottom: 4rpx solid #f14556;
+}
+
+.being {
+  position: relative;
+  height: 60rpx;
+  width: 150rpx;
+  line-height: 60rpx;
+  border-radius: 13rpx;
+}
+
+.being {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-right: 20rpx;
+}
+
+.being:nth-child(2) {
+  border-bottom-left-radius: 0;
+}
+
+.triangle-l {
+  position: absolute;
+  left: -50rpx;
+  top: 2rpx;
+  width: 0;
+  height: 0;
+  z-index: 999;
+  border-color:#f14556 transparent;
+  border-width: 0 0 58rpx 55rpx;
+  border-style: solid;
+}
+
+.triangle-r {
+  position: absolute;
+  right: -50rpx;
+  top: 2rpx;
+  z-index: 999;
+  width: 0;
+  height: 0;
+  border-color:#f14556 transparent;
+  border-width: 0 55rpx 58rpx 0;
+  border-style: solid;
+}
+
+.right .shi {
+  padding: 2rpx 4rpx 0 4rpx;
+  background: #555;
+  margin-left: 10rpx;
+  border-radius: 5rpx;
+  color: #fff;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.nav-item-box {
+  height: 80rpx;
+  white-space: nowrap;
+}
+
+.nav-item {
+  margin-right: 25rpx;
+}
+
+.select-border {
+  padding: 10rpx 0;
+  border-bottom: 5rpx solid #f14556;
+}
+
+.being-product {
+  padding: 1rpx;
+}
+
+.being-product-box {
+  overflow: hidden;
+  display: flex;
+  margin: 15rpx;
+  padding-top: 15rpx;
+  border-radius: 15rpx;
+  flex-wrap: wrap;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  height: 0;
+  color: transparent;
+}

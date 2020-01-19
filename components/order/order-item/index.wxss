@@ -1,0 +1,61 @@
+/* components/order/order-item/index.wxss */
+
+.order-item {
+  width: 94%;
+  margin-left: 3%;
+}
+
+.item-box {
+  border-radius: 16rpx;
+  margin-top: 20rpx;
+  box-shadow: 0 5rpx 10rpx rgba(0, 0, 0, 0.16);
+}
+
+.top-box {
+  height: 100rpx;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+
+.middle-box {
+  padding: 30rpx;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.middle-box image {
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 25rpx;
+}
+
+.bottom-box {
+  justify-content: space-between;
+  height: 100rpx;
+  padding: 0 30rpx;
+}
+
+.left-count text {
+  font-size: 30rpx;
+  font-weight: bold;
+}
+
+button {
+  width: 140rpx;
+  font-size: 24rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 25rpx;
+}
+
+button:nth-child(1) {
+  border: 1px solid #ddd;
+  color: #555;
+  margin-right: 30rpx
+}
+
+button:nth-child(2) {
+  background: #f14556;
+  color: #fff;
+  background: -webkit-linear-gradient(left, #f14556,rgb(247, 148, 118));
+}

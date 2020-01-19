@@ -1,0 +1,44 @@
+<!--pages/my/my.wxml-->
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="个人中心"
+>
+</navigation>
+<view class="content">
+  <view class="container my-container" hidden="{{!loadingHidden}}">
+    
+    <m-user></m-user>
+
+    <m-order></m-order>
+
+    <view class="group-box">
+      <block wx:for="{{groupArr}}" wx:key="{{index}}">
+        <m-cell iconUrl="{{item.iconUrl}}" leftName="{{item.leftName}}" rightSub="{{item.rightSub}}" data-index="{{index}}" catchtap="myGroupTap"/>
+      </block>
+    </view>
+
+    <view class="group-box">
+      <block wx:for="{{itemArr}}" wx:key="{{index}}">
+        <m-cell iconUrl="{{item.iconUrl}}" leftName="{{item.leftName}}" rightSub="{{item.rightSub}}" />
+      </block>
+    </view>
+
+    <m-showmiddle isShow="{{isShow}}">
+      <view class="auth flex-c back-fff">
+        <image src="/images/home/home_banner.png" />
+        <view class="title fw-600">您还未登录</view>
+        <view class="content fs-26">为了完成整体体验，需要您的授权（授权仅用于用户昵称与头像）</view>
+        <view class="btn-box flex-r fs-24">
+          <button catchtap="hideTap">暂不登录</button>
+          <button>立即登录</button>
+        </view>
+      </view>
+    </m-showmiddle>
+
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>
+

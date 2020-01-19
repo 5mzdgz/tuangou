@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "category-nav": "/components/category/categorynav/index"
+  }
+}

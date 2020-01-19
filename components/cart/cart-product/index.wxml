@@ -1,0 +1,36 @@
+<!--components/cart/cart-product/index.wxml-->
+
+<view class="shop-list flex-c">
+  <view class="check-all-box" bindtap="onCheckAll">
+    <view>
+      <label class="check-around8" bindtap="selected" data-lor='1'>
+        <radio checked="{{allSelected?true:false}}" color="#000"></radio>
+        <text class="check-all">{{checkAllText}}全选</text>
+      </label>
+    </view>
+  </view>
+
+  <view class="item-box  {{item.isTouchMove ? 'touch-move-active' : ''}}" data-index="{{index}}" bindtouchstart="touchstart" bindtouchmove="touchmove" wx:for="{{cartArray}}" wx:key="{{index}}">
+    <view class="item">
+      <view class="check-around-box" data-id="{{item.id}}">     
+        <label bindtap="selected" data-id="{{item.id}}" data-isSelect="{{item.isSelect}}">
+          <radio checked="{{item.isSelect>0?true:false}}" color="#000"></radio>
+        </label>
+      </view>
+      <view class="item-img-box">
+        <image class="item-img" src="{{item.thumbUrl}}" />
+      </view>
+      <view class="item-info-box">
+        <text class="item-title">{{item.title}}</text>
+        <text class="item-spec">{{item.spec}}</text>
+        <text class="item-price">¥{{item.price}}</text>
+        <view class="num-box">
+          <view class="num-desc" data-id="{{item.id}}" data-total="{{item.total}}" bindtap="reduce">-</view>
+          <input class="item-input" type="number" disabled="boolean" value="{{item.total}}" />
+          <view class="num-plus" data-id="{{item.id}}" data-total="{{item.total}}" bindtap="plus">+</view>
+        </view>
+      </view>
+    </view>
+    <view class="remove" data-id="{{item.id}}" bindtap="remove">{{remove}}删除</view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/cart/cart.wxml-->
+
+<navigation
+id='Navigation'
+show-icon='{{showIcon}}'
+title="购物车"
+>
+</navigation>
+<view class="content">
+  <view class="container cart-container" hidden="{{!loadingHidden}}">
+    
+    <c-product></c-product>
+    
+  </view>
+  <loading hidden="{{loadingHidden}}">
+    加载中...
+  </loading>
+</view>
+

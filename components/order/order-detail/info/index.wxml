@@ -1,0 +1,5 @@
+<!--components/order/order-detail/info/index.wxml-->
+
+<view class="info-box">
+  合计
+</view>

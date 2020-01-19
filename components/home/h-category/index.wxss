@@ -1,0 +1,17 @@
+/* components/h-category/index.wxss */
+
+.gird-box {
+  margin-top: 100rpx;
+  justify-content: space-around;
+  padding: 30rpx 0;
+}
+
+.gird image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+}
+
+.gird text {
+  line-height: 45rpx;
+}

@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "navigation": "/components/common/navigation/navigation",
+    "v-group": "/components/home/h-group/index",
+    "v-swiper": "/components/common/swiper/index",
+    "h-category": "/components/home/h-category/index",
+    "h-middle": "/components/home/h-middle/middle",
+    "h-bottom": "/components/home/h-bottom/bottom"
+  }
+}

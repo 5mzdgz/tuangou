@@ -1,0 +1,7 @@
+<!--components/h-top/index.wxml-->
+<view class="group">
+  <view class="no-group fs-24">
+    <text>您还没有选择团长，轻松去选择</text>
+    <text class="iconfont icon-dizhi"></text>
+  </view>
+</view>

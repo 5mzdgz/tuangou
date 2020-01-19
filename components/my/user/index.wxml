@@ -1,0 +1,19 @@
+<!--components/my/user/index.wxml-->
+<view class="user-box">
+  <view class="left-box">
+    <view class="user flex-r color-fff">
+      <image src="/images/home/reward.png" />
+      <view class="user-name ellipsis_1">无名字的柜子无名字的柜子</view>
+    </view>
+  </view>
+  <view class="right-box flex-r fs-20 color-fff">
+    <view class="right-item flex-c">
+      <view class="icon-box"><text class="iconfont icon-qiandao"></text></view>
+      <view class="sign">积分签到</view>
+    </view>
+    <view class="right-item flex-c">
+      <view class="icon-box"><text class="iconfont icon-ai-code"></text></view>
+      <view class="sign">提货码</view>
+    </view>
+  </view>
+</view>

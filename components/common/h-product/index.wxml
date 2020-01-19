@@ -1,0 +1,11 @@
+<!--components/h-product/index.wxml-->
+<view class="item-box fs-24" wx:for="{{prodcutArr}}" wx:key="{{index}}" data-id="{{item.id}}" bindtap="goDetail">
+  <image src="{{item.imgUrl}}" />
+  <view class="title ellipsis_1">{{item.title}}</view>
+  <view class="price-box flex-r primary-c">
+    <view class="price">￥{{item.price}}</view>
+    <view class="cart">
+      <text class="iconfont icon-gouwuche1"></text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,21 @@
+<!--components/detail/popu/popu.wxml-->
+<view class="info-box back-fff">
+  <view class="info-top flex-r">
+    <view class="price-box color-fff">
+      <text class="snybol fs-24">￥</text>
+      <text class="price fw-600">199</text>
+      <text class="float fs-24">.50</text>
+      <text class="o-price fs-24">￥69.00</text>
+    </view>
+    <view class="time-box fs-24 back-555">
+      <view>距离结束</view>
+      <view>15天08：22：54</view>
+      <view class="triangle-l"></view>
+    </view>
+  </view>
+  <view class="info-title fw-600 ellipsis_1">栗子鼓鼓的鼓鼓的栗子鼓鼓的鼓鼓的</view>
+  <view class="count-box fs-24">
+    <text class="count-lobal fw-600">销量</text>
+    <text class="count">已售 <text class="num primary-c fw-600">3</text> 件，仅剩 <text class="remnant primary-c fw-600">301</text> 件</text>
+  </view>
+</view>

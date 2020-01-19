@@ -1,0 +1,11 @@
+<!--components/my/group/index.wxml-->
+<view class="item-box flex-r back-fff fs-26" data-pageurl="{{pageUrl}}" bindtap="goClickUrl">
+  <view class="left-box flex-r">
+    <image wx:if="{{iconUrl}}" src="{{iconUrl}}" />
+    <text>{{leftName}}</text>
+  </view>
+  <view class="right-box">
+    <text class="sub" wx:if="{{rightSub}}">{{rightSub}}</text>
+    <text class="iconfont icon-xiangyou"></text>
+  </view>
+</view>
